@@ -1,4 +1,4 @@
-package model;
+package models;
 
 import java.awt.Color;
 
@@ -46,5 +46,7 @@ import java.awt.Color;
         public String toString() {
             return displayName;
         }
+
     }
+
 

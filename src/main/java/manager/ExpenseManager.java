@@ -1,8 +1,8 @@
 package manager;
 
 import java.util.ArrayList;
-import model.Expense;
-import model.Category;
+import models.Expense;
+import models.Category;
 
     public class ExpenseManager {
         private static ExpenseManager instance;
@@ -32,7 +32,7 @@ import model.Category;
         }
 
 
-        public double getTotalExpenses() {
+        public double getTotalSpent() {
             double total = 0;
 
             for (Expense e : expenses) {
@@ -41,8 +41,19 @@ import model.Category;
 
             return total;
         }
-        public double getBalance (double totalExpenses) {
-            return income - totalExpenses;
+
+        public int getCountByCategory(Category category) {
+            int count = 0;
+            for (Expense e : expenses) {
+                if (e.getCategory() == category) { // بنقارن الكاتيجوري
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        public double getBalance() {
+            return income - getTotalSpent();
         }
 
         public int getCount() {
