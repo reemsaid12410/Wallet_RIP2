@@ -28,7 +28,7 @@ public class MainFrame extends JFrame {
     public MainFrame(ExpenseManager manager) {
         this.manager = manager;
 
-        setTitle("wallet_RIP - Dashboard");
+        setTitle("wallet_RIP ");
         setSize(960, 600);
         setLayout(null);
         setLocationRelativeTo(null);

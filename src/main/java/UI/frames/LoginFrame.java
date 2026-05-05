@@ -11,7 +11,7 @@ public class LoginFrame extends JFrame {
     private JButton loginBtn;
 
     public LoginFrame() {
-        setTitle("Login");
+        setTitle("Wallet_RIP");
         setSize(400, 550);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
