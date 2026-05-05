@@ -1,6 +1,17 @@
+package org.main;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+
+import UI.panal.ViewExpensePanal;
+import manager.ExpenseManager;
+import UI.frames.LoginFrame;
+import UI.panal.DashboardPanal;
+import UI.panal.AddExpensePanal;
+import UI.Comonents.componants.StyledButton;
+import UI.Comonents.componants.StatCard;
+import UI.Comonents.componants.CategoryCard;
 
 public class Main {
 
@@ -43,7 +54,7 @@ public class Main {
                 JFrame frame = new JFrame("Dashboard");
                 frame.setSize(400, 300);
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                frame.add(new DashboardPanel());
+                frame.add(new DashboardPanal());
                 frame.setVisible(true);
             }
         });
@@ -91,7 +102,7 @@ public class Main {
                 JFrame frame = new JFrame("Add Expense");
                 frame.setSize(400, 300);
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                frame.add(new AddExpensePanel());
+                frame.add(new AddExpensePanal());
                 frame.setVisible(true);
             }
         });
@@ -131,13 +142,25 @@ public class Main {
 
         btnReem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ExpenseManager manager = new ExpenseManager();
-                LoginFrame login = new LoginFrame(manager);
+                ExpenseManager manager = ExpenseManager.getInstance();
+                LoginFrame login = new LoginFrame();
                 login.setVisible(true);
             }
         });
 
         // ── إظهار الفريم ──
         chooser.setVisible(true);
-    }
-}
+
+
+                JFrame frame = new JFrame("View Expenses");
+
+                frame.setSize(600, 400);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+                ViewExpensePanal.ViewExpensesPanel panel = new ViewExpensePanal.ViewExpensesPanel();
+
+                frame.add(panel);
+
+                frame.setVisible(true);
+            }
+        }
