@@ -12,7 +12,7 @@ public class LoginFrame extends JFrame {
 
     public LoginFrame() {
         setTitle("Wallet_RIP");
-        setSize(400, 550);
+        setSize(960, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
