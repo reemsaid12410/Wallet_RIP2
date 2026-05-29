@@ -164,6 +164,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👩‍💻 Author
 
-**Hanin Tarek** — Faculty of Computers & Information
+**Reem Said** — Faculty of Computers & Information
 
 > Made with ☕ and Java Swing.
