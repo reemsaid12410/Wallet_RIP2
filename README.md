@@ -34,15 +34,15 @@ The app ships with five screens: a login gate, a dashboard with live stats, an e
 
 | Login | Dashboard |
 |-------|-----------|
-| ![Login](src/main/resources/screenshots/Login.png) | ![Dashboard](src/main/resources/screenshots/Dashboard.png) |
+| ![Login](Login.jpeg) | ![Dashboard](Dashboard.jpeg) |
 
 | Add Expense | View Expenses |
 |-------------|---------------|
-| ![Add Expense](src/main/resources/screenshots/Add%20Expense.png) | ![View Expenses](src/main/resources/screenshots/View%20Expenses.png) |
+| ![Add Expense](Add%20Expense.jpeg) | ![View Expenses](View%20Expenses.jpeg) |
 
 | Categories |
 |------------|
-| ![Categories](src/main/resources/screenshots/Categories.png) |
+| ![Categories](Categories.jpeg) |
 
 ---
 
@@ -164,6 +164,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👩‍💻 Author
 
-**Reem Said** — Faculty of Computers & Information
+**Hanin Tarek** — Faculty of Computers & Information
 
 > Made with ☕ and Java Swing.
