@@ -32,19 +32,17 @@ The app ships with five screens: a login gate, a dashboard with live stats, an e
 
 ## 🖼️ Screenshots
 
-> Replace these placeholders with your own screenshots. Put your images in a `/screenshots` folder in the repo, then update the paths below.
-
 | Login | Dashboard |
 |-------|-----------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](src/main/resources/screenshots/Login.png) | ![Dashboard](src/main/resources/screenshots/Dashboard.png) |
 
 | Add Expense | View Expenses |
 |-------------|---------------|
-| ![Add Expense](screenshots/add-expense.png) | ![View Expenses](screenshots/view-expenses.png) |
+| ![Add Expense](src/main/resources/screenshots/Add%20Expense.png) | ![View Expenses](src/main/resources/screenshots/View%20Expenses.png) |
 
 | Categories |
 |------------|
-| ![Categories](screenshots/categories.png) |
+| ![Categories](src/main/resources/screenshots/Categories.png) |
 
 ---
 
@@ -166,6 +164,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👩‍💻 Author
 
-**Reem Said** — Faculty of Computers & Information
+**Hanin Tarek** — Faculty of Computers & Information
 
 > Made with ☕ and Java Swing.
